@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'maven'
-apply plugin: 'signing'
+// apply plugin: 'signing'
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
