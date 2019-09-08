@@ -57,6 +57,7 @@ if (!isCI) {
         archives sourcesJar
     }
 
+    /*
     uploadArchives.repositories.mavenDeployer {
 
         beforeDeployment {
@@ -105,4 +106,5 @@ if (!isCI) {
             pom -> pom.dependencies = []
         }
     }
+    */
 }
