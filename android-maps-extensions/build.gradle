@@ -39,9 +39,11 @@ version = '2.4.1-SNAPSHOT'
 
 if (!isCI) {
 
+    /*
     signing {
         sign configurations.archives
     }
+     */
 
     task javadocJar(type: Jar) {
         classifier = 'javadoc'
